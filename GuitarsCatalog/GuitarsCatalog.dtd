@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+        <!-- ELEMENTS -->
+        <!ELEMENT guitars_catalog (guitars+)>
+        <!ELEMENT guitars (mainInfo*, descriptions*, guitarAbout*, productDetails*, guitar*)>
+
+        <!ELEMENT guitar (brand, image?, company_name?, rating?)>
+        <!ELEMENT brand (#PCDATA)>
+        <!ELEMENT image (#PCDATA)>
+        <!ELEMENT company_name (#PCDATA)>
+        <!ELEMENT rating (#PCDATA)>
+
+        <!ELEMENT mainInfo (guitar, type, color, orientation, num_of_strings, cost)>
+        <!ELEMENT type (#PCDATA)> <!-- acoustic, electric, bass, ukulele, middle-sized guitar -->
+        <!ELEMENT color (#PCDATA)>
+        <!ELEMENT orientation (#PCDATA)>
+        <!ELEMENT num_of_strings (#PCDATA)>
+        <!ELEMENT cost (#PCDATA)>
+
+        <!ELEMENT descriptions (guitar, description)>
+        <!ELEMENT description (#PCDATA)>
+
+        <!ELEMENT guitarAbout (guitar, countryOfOrigin, yearOfManufacture, website)>
+        <!ELEMENT countryOfOrigin (#PCDATA)>
+        <!ELEMENT yearOfManufacture (#PCDATA)>
+        <!ELEMENT website (#PCDATA)>
+
+        <!ELEMENT productDetails (guitar, series, fingerboard_material, amount, condition, comingWith?)>
+        <!ELEMENT series (#PCDATA)>
+        <!ELEMENT fingerboard_material (#PCDATA)>
+        <!ELEMENT amount (#PCDATA)>
+        <!ELEMENT condition (#PCDATA)>
+        <!ELEMENT comingWith (#PCDATA)>
+
+        <!-- ATTRIBUTES -->
+        <!ATTLIST type category CDATA #REQUIRED>
+        <!ATTLIST orientation hand CDATA #REQUIRED> <!-- left / right -->
+        <!ATTLIST series guitarId CDATA #REQUIRED>
+        <!ATTLIST productDetails isAvailable (Да|Не) "Не">
+        <!ATTLIST cost currency CDATA #REQUIRED>
+        <!ATTLIST countryOfOrigin code CDATA #REQUIRED>

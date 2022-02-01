@@ -1,0 +1,69 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="html-transformation-3.xsl"?>
+
+<!DOCTYPE guitars_catalog SYSTEM "GuitarsCatalog.dtd">
+
+<guitars_catalog>
+    <guitars>
+        <guitarAbout>
+            <guitar>
+                <brand> Fender Squier Affinity Series Stratocaster </brand>
+                <image> fender-olympic-white.jpg </image>
+            </guitar>
+            <countryOfOrigin code="US" />
+            <yearOfManufacture> 2015 </yearOfManufacture>
+            <website> www.fender.com </website>
+        </guitarAbout>
+
+        <guitarAbout>
+            <guitar>
+                <brand> Ibanez Cosmic Shadow </brand>
+                <image> ibanez-black.jpg </image>
+            </guitar>
+            <countryOfOrigin code="JP" />
+            <yearOfManufacture> 2017 </yearOfManufacture>
+            <website> www.ibanez.com </website>
+        </guitarAbout>
+
+        <guitarAbout>
+            <guitar>
+                <brand> Takamine GD51 Brown Sunburst </brand>
+                <image> takamine.jpg </image>
+            </guitar>
+            <countryOfOrigin code="JP" />
+            <yearOfManufacture> 2001 </yearOfManufacture>
+            <website> www.takamine.com </website>
+        </guitarAbout>
+
+        <guitarAbout>
+            <guitar>
+                <brand> Framus FD Vintage </brand>
+                <image> framus.jpg </image>
+            </guitar>
+            <countryOfOrigin code="DE" />
+            <yearOfManufacture> 1995 </yearOfManufacture>
+            <website> www.warwick.de или www.framus-vintage.de </website>
+        </guitarAbout>
+
+        <guitarAbout>
+            <guitar>
+                <brand> Sire Marcus Miller V5 Alder-5 Натурал </brand>
+                <image> bass-sire.jpg </image>
+            </guitar>
+            <countryOfOrigin code="ID" />
+            <yearOfManufacture> 2007 </yearOfManufacture>
+            <website> www.sire-usa.com </website>
+        </guitarAbout>
+
+        <guitarAbout>
+            <guitar>
+                <brand> Arrow MH-10 Концертно укулеле Натурал </brand>
+                <image> ukulele.jpg </image>
+            </guitar>
+            <countryOfOrigin code="JP" />
+            <yearOfManufacture> 2018 </yearOfManufacture>
+            <website> Няма информация </website>
+        </guitarAbout>
+    </guitars>
+</guitars_catalog>

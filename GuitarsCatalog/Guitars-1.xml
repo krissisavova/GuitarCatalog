@@ -1,0 +1,81 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="html-transformation-1.xsl"?>
+
+<!DOCTYPE guitars_catalog SYSTEM "GuitarsCatalog.dtd">
+
+<guitars_catalog>
+    <guitars>
+        <mainInfo>
+            <guitar>
+                <brand> Fender Squier Affinity Series Stratocaster </brand>
+                <image> images/fender-olympic-white.jpg </image>
+            </guitar>
+            <type category="Електрическа" />
+            <color> Бяла </color>
+            <orientation hand="За дясна ръка" />
+            <num_of_strings> 6 струни </num_of_strings>
+            <cost currency="BGN"> 490 </cost>
+        </mainInfo>
+        
+        <mainInfo>
+            <guitar>
+                <brand> Ibanez Cosmic Shadow </brand>
+                <image> ibanez-black.jpg </image>
+            </guitar>
+            <type category="Електрическа" />
+            <color> Черна </color>
+            <orientation hand="За лява ръка" />
+            <num_of_strings> 6 струни </num_of_strings>
+            <cost currency="EUR"> 1915 </cost>
+        </mainInfo>
+        
+        <mainInfo>
+            <guitar>
+                <brand> Takamine GD51 Brown Sunburst </brand>
+                <image> takamine.jpg </image>
+            </guitar>
+            <type category="Акустична" />
+            <color> Слънчево кафява </color>
+            <orientation hand="За дясна ръка" />
+            <num_of_strings> 6 струни </num_of_strings>
+            <cost currency="BGN"> 600 </cost>
+        </mainInfo>
+        
+        <mainInfo>
+            <guitar>
+                <brand> Framus FD Vintage </brand>
+                <image> framus.jpg </image>
+            </guitar>
+            <type category="Електро-акустична" />
+            <color> Натурал </color>
+            <orientation hand="За лява ръка" />
+            <num_of_strings> 12 струни </num_of_strings>
+            <cost currency="EUR"> 460 </cost>
+        </mainInfo>
+        
+        <mainInfo>
+            <guitar>
+                <brand> Sire Marcus Miller V5 Alder-5 Натурал </brand>
+                <image> bass-sire.jpg </image>
+            </guitar>
+            <type category="Бас" />
+            <color> Натурал </color>
+            <orientation hand="За дясна ръка" />
+            <num_of_strings> 5 струни </num_of_strings>
+            <cost currency="USD"> 589 </cost>
+        </mainInfo>
+
+        <mainInfo>
+            <guitar>
+                <brand> Arrow MH-10 Концертно укулеле Натурал </brand>
+                <image> ukulele.jpg </image>
+            </guitar>
+            <type category="Укулеле" />
+            <color> Светлокафява </color>
+            <orientation hand="За двете ръце" />
+            <num_of_strings> 4 струни </num_of_strings>
+            <cost currency="SEN"> 7700 </cost>
+        </mainInfo>
+    </guitars>
+</guitars_catalog>

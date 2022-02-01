@@ -1,0 +1,46 @@
+body {
+    background-color: #8ED2FF;
+    font-size: 15px;
+    font-family: Tahoma, serif;
+}
+
+h1 {
+    width: 650px;
+    margin: 0 auto;
+    font-size: 24pt;
+    color: #003077;
+}
+
+table {
+    margin: 30px auto;
+    width: 60%;
+    line-height: 2em;
+}
+
+th, #column1 {
+    background-color: #0050FF;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+td {
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    color: #003077;
+}
+
+button {
+    background-color: #0050FF;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align: left;
+}
