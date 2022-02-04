@@ -5,6 +5,7 @@
 <!DOCTYPE guitars_catalog SYSTEM "GuitarsCatalog.dtd">
 
 <!--> The most popular guitars from the collection (rating > 4.5) -->
+<!--> Which of them is in perfect condition -->
 
 <guitars_catalog>
     <guitars>
@@ -44,5 +45,67 @@
             <company_name> Arrow </company_name>
             <rating> 4.5 </rating>
         </guitar>
+    </guitars>
+
+    <guitars>
+        <productDetails>
+            <guitar>
+                <brand> Fender Squier Affinity Series Stratocaster </brand>
+            </guitar>
+            <series guitarId="037-8002-505" />
+            <fingerboard_material> Клен </fingerboard_material>
+            <amount> 0 </amount>
+            <condition> Отлично </condition>
+        </productDetails>
+
+        <productDetails>
+            <guitar>
+                <brand> Ibanez Cosmic Shadow </brand>
+            </guitar>
+            <series guitarId="RG5320L-CSW" />
+            <fingerboard_material> Черен абанос </fingerboard_material>
+            <amount> 1 </amount>
+            <condition> Отлично </condition>
+        </productDetails>
+
+        <productDetails>
+            <guitar>
+                <brand> Takamine GD51 Brown Sunburst </brand>
+            </guitar>
+            <series guitarId="GD51-BSB" />
+            <fingerboard_material> Лавър </fingerboard_material>
+            <amount> 3 </amount>
+            <condition> Много добро </condition>
+        </productDetails>
+
+        <productDetails>
+            <guitar>
+                <brand> Framus FD Vintage </brand>
+            </guitar>
+            <series guitarId="FR-FD-14-SV-VSNT-CL2" />
+            <fingerboard_material> Махагон </fingerboard_material>
+            <amount> 5 </amount>
+            <condition> Много добро </condition>
+        </productDetails>
+
+        <productDetails>
+            <guitar>
+                <brand> Sire Marcus Miller V5 Alder-5 Натурал </brand>
+            </guitar>
+            <series guitarId="V5-ALDER-5-NT" />
+            <fingerboard_material> Елша </fingerboard_material>
+            <amount> 2 </amount>
+            <condition> Отлично </condition>
+        </productDetails>
+
+        <productDetails>
+            <guitar>
+                <brand> Arrow MH-10 Концертно укулеле Натурал </brand>
+            </guitar>
+            <series guitarId="ARROW-MH10" />
+            <fingerboard_material> Махагон </fingerboard_material>
+            <amount> 3 </amount>
+            <condition> Отлично </condition>
+        </productDetails>
     </guitars>
 </guitars_catalog>

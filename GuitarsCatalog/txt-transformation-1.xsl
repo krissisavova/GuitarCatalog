@@ -7,11 +7,12 @@
     <xsl:template match="/">
 
         Каталог за китари
+
         <xsl:for-each select="guitars_catalog/guitars/guitarAbout">
             Марка: <xsl:value-of select="guitar/brand"/>
+            Снимка: <xsl:value-of select="guitar/image"/>
             Произход (Държава): <xsl:value-of select="countryOfOrigin/@code"/>
             Година на производство: <xsl:value-of select="yearOfManufacture"/>
-            Оценка (1-5): <xsl:value-of select="rating"/>
             Уебсайт: <xsl:value-of select="website"/>
             ---------------------------------
 

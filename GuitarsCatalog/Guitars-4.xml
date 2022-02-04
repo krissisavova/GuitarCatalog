@@ -13,7 +13,7 @@
             </guitar>
             <series guitarId="037-8002-505" />
             <fingerboard_material> Клен </fingerboard_material>
-            <amount> 0 броя </amount>
+            <amount> 0 </amount>
             <condition> Отлично </condition>
             <comingWith> калъф, колан за китара, перце </comingWith>
         </productDetails>
@@ -25,7 +25,7 @@
             </guitar>
             <series guitarId="RG5320L-CSW" />
             <fingerboard_material> Черен абанос </fingerboard_material>
-            <amount> 1 брой </amount>
+            <amount> 1 </amount>
             <condition> Отлично </condition>
         </productDetails>
 
@@ -36,7 +36,7 @@
             </guitar>
             <series guitarId="GD51-BSB" />
             <fingerboard_material> Лавър </fingerboard_material>
-            <amount> 3 броя </amount>
+            <amount> 3 </amount>
             <condition> Много добро </condition>
             <comingWith> калъф, колан за китара, тунер, перце </comingWith>
         </productDetails>
@@ -48,7 +48,7 @@
             </guitar>
             <series guitarId="FR-FD-14-SV-VSNT-CL2" />
             <fingerboard_material> Махагон </fingerboard_material>
-            <amount> 5 броя </amount>
+            <amount> 5 </amount>
             <condition> Много добро </condition>
             <comingWith> калъф, колан за китара </comingWith>
         </productDetails>
@@ -60,7 +60,7 @@
             </guitar>
             <series guitarId="V5-ALDER-5-NT" />
             <fingerboard_material> Елша </fingerboard_material>
-            <amount> 2 броя </amount>
+            <amount> 2 </amount>
             <condition> Отлично </condition>
             <comingWith> калъф, колан за китара, тунер </comingWith>
         </productDetails>
@@ -72,7 +72,7 @@
             </guitar>
             <series guitarId="ARROW-MH10" />
             <fingerboard_material> Махагон </fingerboard_material>
-            <amount> 3 броя </amount>
+            <amount> 3 </amount>
             <condition> Отлично </condition>
         </productDetails>
     </guitars>

@@ -10,7 +10,7 @@
             </head>
             <body>
             <center>
-              <h1> Каталог за китари </h1>
+              <h1> Каталог за китари </h1> <br/>
                 <table border="1">
                     <tr bgcolor="#FF5936">
                         <th> Марка </th>
@@ -29,7 +29,7 @@
                         <td><xsl:value-of select="orientation/@hand"/></td>
                         <td><xsl:value-of select="num_of_strings"/></td>
                         <td><xsl:value-of select="cost"/>&#160;<xsl:value-of select="cost/@currency"/></td>
-                        <td><img src="images/{image}" width="200" height="200"/></td>
+                        <td><img src="{@image}" width="200" height="200"/></td>
                     </tr>
                     </xsl:for-each>
                 </table>

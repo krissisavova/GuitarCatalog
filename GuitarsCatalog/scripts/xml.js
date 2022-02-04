@@ -10,7 +10,7 @@ function createXMLDocument() {
     let guitars = doc.createElement("guitars");
     guitars_catalog.appendChild(guitars);
 
-// a single guitar
+// a single guitar 1
     let guitars_guitar = doc.createElement("guitar");
     guitars.appendChild(guitars_guitar);
 
@@ -34,7 +34,7 @@ function createXMLDocument() {
     let guitars_mainInfo = doc.createElement("mainInfo");
     guitars.appendChild(guitars_mainInfo);
 
-    let mainInfo_type = doc.createElement("mainInfo");
+    let mainInfo_type = doc.createElement("type");
     mainInfo_type.setAttribute("category","Електрическа");
     guitars_mainInfo.appendChild(mainInfo_type);
 
