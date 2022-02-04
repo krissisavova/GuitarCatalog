@@ -17,7 +17,7 @@
     </descriptions>
 
     <xsl:value-of select="concat('Описание за китарата ',
-        guitar/brand, ':', description)"/>
+        guitar/brand, ':', description, 'Файлът към снимката на продукта е ', guitar/image)"/>
 
 </xsl:template>
 
