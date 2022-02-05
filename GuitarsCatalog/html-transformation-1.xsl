@@ -29,7 +29,7 @@
                         <td><xsl:value-of select="orientation/@hand"/></td>
                         <td><xsl:value-of select="num_of_strings"/></td>
                         <td><xsl:value-of select="cost"/>&#160;<xsl:value-of select="cost/@currency"/></td>
-                        <td><img src="{@image}" width="200" height="200"/></td>
+                        <td><img src="images/{guitar/image}" align="left"/></td>
                     </tr>
                     </xsl:for-each>
                 </table>

@@ -10,7 +10,7 @@
         <xsl:for-each select="guitars_catalog/guitars/productDetails">
             Марка: <xsl:value-of select="guitar/brand"/>
             Сериен номер: <xsl:value-of select="series/@guitarId"/>
-            Материал на тялото: <xsl:value-of select="fingerboard_material"/>
+            Материал на грифа: <xsl:value-of select="fingerboard_material"/>
             Бройки: <xsl:value-of select="amount"/>
             Състояние: <xsl:value-of select="condition"/>
             В комплект с: <xsl:value-of select="comingWith"/>

@@ -25,7 +25,7 @@
                                 <td><xsl:value-of select="countryOfOrigin/@code"/></td>
                                 <td><xsl:value-of select="yearOfManufacture"/></td>
                                 <td><xsl:value-of select="website"/></td>
-                                <td><img src="guitar/{image}" width="150" height="200"/></td>
+                                <td><img src="images/{guitar/image}" width="150" height="200"/></td>
                             </tr>
                         </xsl:for-each>
                     </table>
