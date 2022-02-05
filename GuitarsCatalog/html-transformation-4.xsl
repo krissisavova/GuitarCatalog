@@ -24,7 +24,7 @@
                                 <td id="column1" bgcolor="#FF5936"><xsl:value-of select="brand"/></td>
                                 <td><xsl:value-of select="company_name"/></td>
                                 <td><xsl:value-of select="rating"/></td>
-                                <td><img src="images/{guitar/image}" width="150" height="200"/></td>
+                                <td><img src="images/{image}" width="150" height="200"/></td>
                             </tr>
                         </xsl:for-each>
                     </table>
